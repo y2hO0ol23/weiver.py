@@ -1,7 +1,3 @@
 import discord
 
-def main():
-    print("start")
-
-if __name__ == "__main__":
-    main()
+bot = discord.Bot(debug_guilds=[...])
